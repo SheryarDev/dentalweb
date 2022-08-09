@@ -34,6 +34,9 @@ header .logo img{
 header .menu i{
     display: none;
 }
+header .menu .nav-link:hover{
+color: #1479FF!important;
+}
 .home-section,.about-section{
     background: #F5FAFF;
     max-height: 590px;
@@ -66,6 +69,11 @@ header .menu i{
 }
 .appointment-section .right-content{
     width: 60%;
+}
+.appointment-section .container .left-content .card i{
+    position: relative;
+    top: 4px;
+    color:#1479FF;
 }
 
 /*======================================== Media quries=========================== */
@@ -141,7 +149,9 @@ header .menu i{
         color:#fff !important;
         font-size: 30px;
     }
-
+    header .menu .nav-link:hover{
+        color: black!important;
+        }
     .menu ul.active{
         left: 0;
     }
@@ -364,13 +374,10 @@ header .menu i{
        .review-section .container{
         padding: 1rem!important;
     }
-}
-
-@media (max-width:410px) {
     .btn-lg {
         padding: 0.3rem 0.5rem !important;
         font-size: 1rem !important;
         
     }
-    
 }
+
