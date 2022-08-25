@@ -29,19 +29,21 @@
     </div>
 
           <nav class="menu">
-            <i class='bx bx-menu menu-btn '></i>
+            <i class='bx bx-menu menu-btn menu-bar '></i>
             <ul class="d-flex nav-bar fs-5  fw-semi-bold nav">
                 <li class="nav-item px-4" >
-                  <a class="nav-link menu-btn active text-dark" aria-current="page" href="#home">Home</a>
+                
+                  <a class="nav-link menu-btn active text-dark" aria-current="page" href="#home">  <i class='bx bx-home'></i>Home</a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link menu-btn active text-dark" aria-current="page" href="#about">About</a>
+              
+                  <a class="nav-link menu-btn active text-dark" aria-current="page" href="#about"><i class='bx bxs-info-circle'></i>About</a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link menu-btn  active text-dark" aria-current="page" href="#services">Services</a>
+                  <a class="nav-link menu-btn  active text-dark" aria-current="page" href="#services"><i class='bx bx-donate-blood'></i>Services</a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link menu-btn  active text-dark" aria-current="page" href="#staff">Staff</a>
+                  <a class="nav-link menu-btn  active text-dark" aria-current="page" href="#staff"><i class='bx bxs-group'></i>Staff</a>
                 </li>
              
               </ul>
@@ -69,7 +71,7 @@
              
             <div class="right">
               <div class="right-content w-70  h-25">
-                <img  class="img-fluid  d-block mx-auto  " src="images/img-3.png" alt="">
+                <img  class="img-fluid home-img  d-block mx-auto  " src="images/img-3.png" alt="">
     
               </div>
             </div>
@@ -101,13 +103,13 @@
         <section class="about-section py-5"  id="about">
           <div class="container d-flex justify-content-center pt-5">
             <div class="left-content align-self-center w-50">
-               <img src="images/img-7.jpg"  class="img-fluid px-5" alt="">
+               <img src="images/img-7.jpg"  class="img-fluid about-img px-5" alt="">
             </div>
              <div class="right-content align-self-center w-50">
-               <h4 class="text-primary">ABOUT US</h4>
-               <h1 class="fw-bolder">We Care About </h1>
-               <h1 class="fw-bolder">Your Dental Health</h1>
-               <p class="text-start w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam cupiditate quae dolores laboriosam commodi</p>
+               <h4 class="text-primary about-text">ABOUT US</h4>
+               <h1 class="fw-bolder about-text">We Care About </h1>
+               <h1 class="fw-bolder about-text">Your Dental Health</h1>
+               <p class="text-start w-75 about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam cupiditate quae dolores laboriosam commodi</p>
                <div class="facilites my-4">
                  <div class="fac d-flex ">
                     <div class="fac-logo  bg-primary rounded-2 ">
@@ -212,7 +214,7 @@
             <div class="story-left w-50 px-4">
                   <h1 class="heading-text-2">Short Story About</h1>
                   <h1 class="heading-text-2">Digital Clinic</h1>
-                  <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim ex sed quos illo libero perspiciatis accusamus inventore voluptatem? Modi, assumenda!</P>
+                  <P class="story-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim ex sed quos illo libero perspiciatis accusamus inventore voluptatem? Modi, assumenda!</P>
                   <div class="story-cards gy-5 text-center text-light">
                     <div class="row">
                       <div class="col-6 g-3 story-item item-1 bg-primary w-25 rounded-4">
@@ -238,7 +240,7 @@
             </div>
             <div class="story-right w-50">
                  <div class="right-content mt-5">
-                   <img src="images/img-8.jpg" class="rounded-5" alt="">
+                   <img src="images/img-8.jpg" class="rounded-5 story-img" alt="">
                  </div>
             </div>
           </div>
@@ -307,7 +309,7 @@
           <div class="container d-flex">
              <div class="left-content ">
                 <h1 class="heading-text-2">Make an <br>Appointment</h1>
-                <P class="fs-5 my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, facilis.</P>
+                <P class="fs-5 app-text my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, facilis.</P>
                 <div class="card border-0 shadow-sm rounded-4 px-5 py-5 " style="background-color:#F5FAFF">
                   <h1>Quick Contact</h1>
                   <P><i class='bx bx-phone fs-4 px-1'></i>(031) 333-7452</P>
@@ -407,7 +409,7 @@
 
         <!--------------------------------------- Newsletter Section ------------------------->
         <section class="newsletter-section py-5">
-          <div class="container bg-primary text-light h-75 py-5 rounded-5">
+          <div class="container Newsletter bg-primary text-light h-75 py-5 rounded-5">
             <h1 class="text-center">Our Services</h1>
             <P class="text-center w-75 d-block fs-5 m-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem facere aliquam nulla deserunt officiis omnis aperiam a aliquid similique atque?</P>
 
@@ -427,7 +429,8 @@
 
 
 
-
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

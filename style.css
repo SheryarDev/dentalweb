@@ -130,30 +130,44 @@ color: #1479FF!important;
         transition: all 0.3s ease;
     }
 
-     header .menu ul li{
-         padding: 5px 0px;
-         text-align: center;
-         margin-top: 40px;
+
+
+
+     header .menu .menu-bar{
+        display: block;
+        font-size: 50px;
+        color: black;
+        position: absolute;
+        top:0;
+        right: 0;
+        padding-top: 10px;
+        padding-right: 15px;
      }
-     header .menu i{
-         display: block;
-         font-size: 50px;
-         color: black;
-         position: absolute;
-         top:0;
-         right: 0;
-         padding-top: 10px;
-         padding-right: 15px;
+     .nav-bar .menu-btn i{
+         display: inline-block;
+         color: #F5FAFF;
+         z-index: 34;
+         padding-right: 30px;
      }
+     header .menu ul li:nth-child(1){ 
+      margin-top: 40px;
+    }
+    header .menu ul li{
+        padding: 5px 10px!important;
+        text-align: start;
+            border-bottom: 1px solid rgb(226, 221, 221);
+            border-radius: 34px;
+    }
+
     header .menu ul li a{
         color:#fff !important;
         font-size: 30px;
     }
-    header .menu .nav-link:hover{
+    /* header .menu .nav-link:hover{
         color: black!important;
-        }
+        } */
     .menu ul.active{
-        left: 0;
+        left: 40%;
     }
 
     /* =========home section styling====== */
